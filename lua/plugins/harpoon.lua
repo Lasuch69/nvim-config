@@ -10,7 +10,7 @@ return {
     end,
     keys = function()
       local keys = {
-        { "<leader>m", "<cmd>lua require('harpoon.ui').toggle_quick_menu()<cr>", desc = "Harpoon open menu" },
+        { "<C-e>", "<cmd>lua require('harpoon.ui').toggle_quick_menu()<cr>", desc = "Harpoon open menu" },
         { "<leader>a", "<cmd>lua require('harpoon.mark').add_file()<cr>", desc = "Harpoon add file" },
       }
 
